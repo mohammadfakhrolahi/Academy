@@ -1,0 +1,13 @@
+header {
+  height: 5rem;
+  grid-template-columns: 20rem 1fr 30rem;
+  padding: 0 4rem;
+}
+
+.logo {
+  background: red;
+}
+
+/*# sourceMappingURL=header_20220528132404.css.map */
+
+/*# sourceMappingURL=header_20220528132404.css.map */

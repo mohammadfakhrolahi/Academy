@@ -1,0 +1,32 @@
+// ---- Header ----
+header {
+  height: 5rem;
+  grid-template-columns: 20rem 1fr 30rem;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.logo {
+  position: relative;
+  
+  &:before {
+    content: "";
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0.2rem;
+    background: $purple;
+    background-size: 800% 800%;
+  }
+
+  span {
+    color: $black;
+    margin-left: 4rem;
+    font: {
+      size: 2rem;
+      weight: 600;
+    }
+  }
+}

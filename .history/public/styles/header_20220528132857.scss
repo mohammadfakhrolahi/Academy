@@ -1,0 +1,29 @@
+// ---- Header ----
+header {
+  height: 5rem;
+  grid-template-columns: 20rem 1fr 30rem;
+  align-items: center;
+  padding: 0 4rem;
+}
+
+.logo {
+  
+  color: $black;
+  font: {
+    size: 2rem;
+    weight: 600;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: linear-gradient(238deg, #c750e5, #6945f7, #c750e5, #5142fb);
+    background-size: 800% 800%;
+    animation: AnimationName 4s ease infinite;
+  }
+}

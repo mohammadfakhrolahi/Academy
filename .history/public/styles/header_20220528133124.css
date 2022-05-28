@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: expected "{".
+ *    ,
+ * 11 |   position: relative;
+ *    |                     ^
+ *    '
+ *   .history\public\styles\header_20220528133124.scss 11:21  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    ╷\a 11 │   position: relative;\d\a    │                     ^\a    ╵\a   .history\\public\\styles\\header_20220528133124.scss 11:21  root stylesheet';
+}
+
+/*# sourceMappingURL=header_20220528133124.css.map */
