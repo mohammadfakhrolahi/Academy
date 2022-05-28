@@ -1,0 +1,8 @@
+// ---- Text input ----
+.txt-form {
+  .txt-input {
+    &:placeholder {
+      $gray-light;
+      
+  }
+}

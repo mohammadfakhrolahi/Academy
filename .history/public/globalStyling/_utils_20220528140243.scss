@@ -1,0 +1,10 @@
+// ---- Text input ----
+.txt-form {
+  display: ;
+  .txt-input {
+    width: 100%;
+    &:placeholder {
+      color: $gray-light;
+    }
+  }
+}

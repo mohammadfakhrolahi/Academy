@@ -1,0 +1,13 @@
+// ---- Text input ----
+.txt-form {
+  width: 20rem;
+  box-shadow: 0 0 0 0 rgb(0, 0, 0);
+
+  display: flex;
+  .txt-input {
+    width: 100%;
+    &:placeholder {
+      color: $gray-light;
+    }
+  }
+}
