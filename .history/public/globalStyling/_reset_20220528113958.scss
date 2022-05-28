@@ -1,6 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+// Import font
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
-  font-family: Lato;
+  font-family: L;
 }
 
 h1 {
@@ -15,12 +17,25 @@ h3 {
   font-size: 2.1rem;
 }
 
+h4 {
+  font: {
+    size: 1.6rem;
+    // weight: 700;
+  }
+}
+
+h5 {
+  font-size: 1rem;
+}
+
 p,
 span,
 li {
   font-size: 1.4rem;
   letter-spacing: 0.02rem;
 }
+
+// Reset CSS
 
 html {
   font-size: 62.5%;
@@ -40,6 +55,9 @@ body,
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 ul,
 li,
 div,
@@ -55,9 +73,15 @@ p, span {
   line-height: 1.5;
 }
 
-input {
+input, textarea {
   all: unset;
   font-size: 1.5rem;
+}
+
+textarea {
+  resize: none;
+  width: auto;
+  height: auto;
 }
 
 a {
@@ -81,4 +105,7 @@ button {
   cursor: pointer;
 }
 
-/*# sourceMappingURL=main.css.map */
+// Dropzone
+.dropzone-input {
+  all: unset;
+}
