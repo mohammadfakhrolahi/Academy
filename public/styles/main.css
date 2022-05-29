@@ -63,28 +63,29 @@ img {
 }
 
 button {
+  all: unset;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  all: unset;
   cursor: pointer;
 }
 
 .h1 {
   font-size: 3rem;
   font-weight: 600;
-  color: #424040;
 }
 
 .h2 {
   font-size: 2.2rem;
   font-weight: 600;
-  color: #424040;
 }
 
 .h3 {
   font-size: 1.8rem;
   font-weight: 500;
-  color: #424040;
+}
+
+.text-14 {
+  font-size: 1.4rem;
 }
 
 .text-16-500 {
@@ -92,11 +93,15 @@ button {
   font-weight: 500;
 }
 
+p, h1, h2, h3 {
+  color: #424040;
+}
+
 .btn-form {
   width: 4rem;
   height: 4rem;
   background: inherit;
-  color: #b5b8c8;
+  color: #aaadbc;
   border-radius: 1rem;
   text-align: center;
   font-size: 1.5rem;
@@ -118,6 +123,16 @@ button {
   transition: 0.2s;
 }
 
+.btn-2xl {
+  width: 100%;
+  max-width: 18rem;
+  background: #8a70d6;
+  padding: 1rem 2rem;
+  color: #ffffff;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+}
+
 .txt-form {
   width: 20rem;
   height: 4rem;
@@ -132,7 +147,31 @@ button {
   border-radius: inherit;
 }
 .txt-form .txt-input:placeholder {
-  color: #b5b8c8;
+  color: #aaadbc;
+}
+
+.modal {
+  position: relative;
+  background: #e9e3ff;
+  padding: 8rem 1rem 2rem 1rem;
+  margin-top: 10rem;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+.modal .image-box {
+  position: absolute;
+  top: -10rem;
+}
+.modal h3 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.modal p {
+  font-size: 1.2rem;
+}
+.modal .btn-2xl {
+  margin-top: 2rem;
 }
 
 header {
@@ -212,7 +251,7 @@ main {
 .nav-item-container {
   padding: 1rem 1.5rem;
   border-radius: 1rem;
-  color: #b5b8c8;
+  color: #aaadbc;
   cursor: pointer;
   transition: 0.2s;
 }
