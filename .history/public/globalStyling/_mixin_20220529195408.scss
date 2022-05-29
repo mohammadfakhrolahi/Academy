@@ -5,8 +5,8 @@
   align-items: center;
 }
 
-@mixin column-jc {
+@mixin columnj {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  ustify-content: space-between
 }

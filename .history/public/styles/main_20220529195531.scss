@@ -2,11 +2,9 @@
 
 body {
   background: $primary-bg;
-  height: 100vh;
 }
 
 main {
-  height: 94vh;
   grid-template-columns: 20rem 1fr 30rem;
   align-items: center;
   grid-gap: 4rem;
