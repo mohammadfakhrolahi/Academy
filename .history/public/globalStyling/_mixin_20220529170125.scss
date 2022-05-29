@@ -1,0 +1,11 @@
+// Flex box
+@mixin flex-jc-ic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin name {
+  display: flex;
+  flex-direction: column;
+}

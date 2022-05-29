@@ -1,0 +1,45 @@
+@import '../globalStyling/layout';
+
+body {
+  background: $primary-bg;
+}
+
+main {
+  padding: 0 4rem;
+}
+
+.grid {
+  display: grid;
+}
+
+// && = Logical AND
+// || = Logical OR
+
+// '' , 0 , false , null , undefined , NaN = Falsy values
+
+// Truthy value = 's' , 2 , true , {} , []
+
+// console.log(5 && "majid" && 0);
+// console.log(null && true && "J");
+// console.log(5 && 2 && 1000);
+
+// console.log(8 || null || undefined);
+// console.log(null || undefined || false);
+
+
+
+// Unary Operators
+console.log(typeof "hello");
+console.log(!true);
+console.log(-10);
+
+// Binary Operators
+console.log(4 - 2);
+console.log(8 * 9);
+console.log(true && false);
+console.log(6 >= 9);
+
+// Ternary Operators
+const age = 25;
+
+console.log(age >= 18 ? "I like to drink wine" : "I like to drink water");

@@ -1,0 +1,14 @@
+@import '../globalStyling/layout';
+
+body {
+  background: $primary-bg;
+}
+
+main {
+  padding: 0 4rem;
+}
+
+.grid {
+  display: grid;
+}
+

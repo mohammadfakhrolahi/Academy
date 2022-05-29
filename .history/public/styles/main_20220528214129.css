@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: expected "{".
+ *    ,
+ * 45 | console.log(age >= 18 ? "I like to drink wine" : "I like to drink water");
+ *    |                                                                          ^
+ *    '
+ *   .history\public\styles\main_20220528214129.scss 45:74  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    ╷\a 45 │ console.log(age >= 18 ? "I like to drink wine" : "I like to drink water");\a    │                                                                          ^\a    ╵\a   .history\\public\\styles\\main_20220528214129.scss 45:74  root stylesheet';
+}
+
+/*# sourceMappingURL=main_20220528214129.css.map */
