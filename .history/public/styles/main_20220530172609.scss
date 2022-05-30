@@ -1,0 +1,74 @@
+@import '../globalStyling/layout';
+
+body {
+  background: $primary-bg;
+  height: 100vh;
+}
+
+main {
+  height: 94vh;
+  grid-template-columns: 20rem 1fr 30rem;
+  align-items: center;
+  grid-gap: 4rem;
+  padding: 4rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.left-side-section {
+  height: 100%;
+  @include column-jc();
+}
+
+// ---- Main Nav ----
+// Nav list
+.nav-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+// Nav item container
+.nav-item-container {
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: $gray-light;
+  cursor: pointer;
+  transition: 0.2s;
+  
+  i {
+    margin-right: 0.5rem;
+  }
+  
+  &:hover {
+    background: $purple-light;
+    color: $text-color;
+  }
+}
+
+// ---- Course List ----
+.course-list__h2 {
+  margin-bottom: 2rem;
+}
+
+// Cards
+.card-item-x {
+  &--first {
+    background: #fff0e1;
+    .image-box {
+      background: #fcab5e;
+    }
+  }
+  &--first {
+    background: #fff0e1;
+    .image-box {
+      background: #fcab5e;
+    }
+  }
+  &--first {
+    background: #fff0e1;
+    .image-box {
+      background: #fcab5e;
+    }
+  }
+}

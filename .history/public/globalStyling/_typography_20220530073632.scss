@@ -1,0 +1,42 @@
+$font-12: 1.2rem;
+$font-14: 1.4rem;
+
+.h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  
+}
+
+.h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+
+// Text
+.text-14 {
+  font-size: 1.4rem;
+}
+
+.text-16-500 {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+p, h1, h2, h3 {
+  color: $text-color;
+}
+
+.text-10 {
+  font-size: 1rem;
+}
+
+// ---- Text Color ----
+.txt-grey {
+  color: $g;
+}

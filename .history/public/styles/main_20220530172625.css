@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: Expected identifier.
+ *    ,
+ * 64 |     background: $;
+ *    |                  ^
+ *    '
+ *   .history\public\styles\main_20220530172625.scss 64:18  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected identifier.\a    ╷\a 64 │     background: $;\d\a    │                  ^\a    ╵\a   .history\\public\\styles\\main_20220530172625.scss 64:18  root stylesheet";
+}
+
+/*# sourceMappingURL=main_20220530172625.css.map */
