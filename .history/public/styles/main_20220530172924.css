@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: expected ")".
+ *    ,
+ * 51 |   @include flex-jc-ic(;
+ *    |                       ^
+ *    '
+ *   .history\public\styles\main_20220530172924.scss 51:23  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected ")".\a    ╷\a 51 │   @include flex-jc-ic(;\d\a    │                       ^\a    ╵\a   .history\\public\\styles\\main_20220530172924.scss 51:23  root stylesheet';
+}
+
+/*# sourceMappingURL=main_20220530172924.css.map */
