@@ -97,6 +97,10 @@ p, h1, h2, h3, a {
   font-weight: 500;
 }
 
+.text-16 {
+  font-size: 1.6rem;
+}
+
 .text-14 {
   font-size: 1.4rem;
 }
@@ -261,6 +265,16 @@ p, h1, h2, h3, a {
   border-radius: 50%;
 }
 .image-box-xs img {
+  border-radius: 50%;
+}
+
+.image-box-xl {
+  width: 10rem;
+  height: 10rem;
+  background: #e9e3ff;
+  border-radius: 50%;
+}
+.image-box-xl img {
   border-radius: 50%;
 }
 
@@ -439,6 +453,12 @@ main {
 }
 .table .table-item--first p {
   grid-column: 2/-1;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
