@@ -85,10 +85,7 @@ main {
   margin-top: 4rem;
 }
 
-// Header
-.my-courses__header {
-  @include flex-jb-ic();
-}
+Header
 
 .table {
   width: 100%;

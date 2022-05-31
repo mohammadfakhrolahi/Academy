@@ -264,6 +264,11 @@ p, h1, h2, h3, a {
   border-radius: 50%;
 }
 
+.link-m {
+  color: #8a70d6;
+  font-size: 1.4rem;
+}
+
 header {
   height: 5vh;
   grid-template-columns: 20rem 1fr 30rem;
@@ -394,6 +399,12 @@ main {
 
 .my-courses {
   margin-top: 4rem;
+}
+
+.my-courses__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .table {
