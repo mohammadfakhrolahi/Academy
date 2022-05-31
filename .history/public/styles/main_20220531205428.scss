@@ -160,22 +160,24 @@ main {
 
 // ---- Calendar ----
 .container {
-  width: 100%;
+  align-items: center;
+  display: flex;
   // height: 100%;
-  @include flex-jc-ic();
+  justify-content: center;
   margin: 0 auto;
-  max-width: 60rem;
+  max-width: 600px;
+  width: 100%;
 }
 
 .calendar {
-  width: 100%;
   background: #fbfbfb;
-  // border-radius: 4px;
+  border-radius: 4px;
   // box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
   height: 501px;
   perspective: 1000;
-  transition: .2s;
+  transition: .9s;
   transform-style: preserve-3d;
+  width: 100%;
 }
 
 /* Front - Calendar */
