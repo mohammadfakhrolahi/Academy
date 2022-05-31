@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: Expected expression.
+ *     ,
+ * 109 |       grid-column: ;
+ *     |                    ^
+ *     '
+ *   .history\public\styles\main_20220531170724.scss 109:20  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Expected expression.\a     ╷\a 109 │       grid-column: ;\d\a     │                    ^\a     ╵\a   .history\\public\\styles\\main_20220531170724.scss 109:20  root stylesheet";
+}
+
+/*# sourceMappingURL=main_20220531170724.css.map */

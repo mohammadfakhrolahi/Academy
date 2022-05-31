@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: expected "{".
+ *     ,
+ * 105 |       gc1
+ *     |          ^
+ *     '
+ *   .history\public\styles\main_20220531170647.scss 105:10  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a     ╷\a 105 │       gc1\d\a     │          ^\a     ╵\a   .history\\public\\styles\\main_20220531170647.scss 105:10  root stylesheet';
+}
+
+/*# sourceMappingURL=main_20220531170647.css.map */

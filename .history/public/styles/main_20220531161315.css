@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* Error: expected "{".
+ *    ,
+ * 84 | #my-courses 
+ *    |             ^
+ *    '
+ *   .history\public\styles\main_20220531161315.scss 84:13  root stylesheet */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    ╷\a 84 │ #my-courses \a    │             ^\a    ╵\a   .history\\public\\styles\\main_20220531161315.scss 84:13  root stylesheet';
+}
+
+/*# sourceMappingURL=main_20220531161315.css.map */
