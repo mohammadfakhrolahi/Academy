@@ -143,8 +143,4 @@ main {
 .profile-container {
   @include column-ic();
   
-  // Image
-  .image-box-xl {
-    margin-bottom: 1rem;
-  }
 }
