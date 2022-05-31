@@ -285,7 +285,7 @@ p, h1, h2, h3, a {
 
 header {
   height: 5vh;
-  grid-template-columns: 20rem 1fr 30rem;
+  grid-template-columns: 20rem 1fr 40rem;
   align-items: center;
   grid-gap: 4rem;
   padding: 2rem 4rem;
