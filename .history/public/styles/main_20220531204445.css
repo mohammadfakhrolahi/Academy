@@ -1,18 +1,17 @@
-@charset "UTF-8";
 /* Error: expected "{".
  *     ,
  * 161 | ---- Cala
  *     |          ^
  *     '
  *   .history\public\styles\main_20220531204445.scss 161:10  root stylesheet */
+
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     ╷\a 161 │ ---- Cala\a     │          ^\a     ╵\a   .history\\public\\styles\\main_20220531204445.scss 161:10  root stylesheet';
+  content: 'Error: expected "{".\a     \2577 \a 161 \2502  ---- Cala\a     \2502           ^\a     \2575 \a   .history\\public\\styles\\main_20220531204445.scss 161:10  root stylesheet';
 }
-
-/*# sourceMappingURL=main_20220531204445.css.map */

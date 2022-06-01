@@ -1,0 +1,17 @@
+/* Error: expected "{".
+ *    ,
+ * 59 |     col
+ *    |        ^
+ *    '
+ *   .history\public\styles\main_20220601155021.scss 59:8  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 59 \2502      col\d\a    \2502         ^\a    \2575 \a   .history\\public\\styles\\main_20220601155021.scss 59:8  root stylesheet';
+}

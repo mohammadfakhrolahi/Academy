@@ -1,18 +1,17 @@
-@charset "UTF-8";
 /* Error: expected "{".
  *     ,
  * 152 |   .
  *     |    ^
  *     '
  *   .history\public\styles\main_20220531192758.scss 152:4  root stylesheet */
+
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     ╷\a 152 │   .\d\a     │    ^\a     ╵\a   .history\\public\\styles\\main_20220531192758.scss 152:4  root stylesheet';
+  content: 'Error: expected "{".\a     \2577 \a 152 \2502    .\d\a     \2502     ^\a     \2575 \a   .history\\public\\styles\\main_20220531192758.scss 152:4  root stylesheet';
 }
-
-/*# sourceMappingURL=main_20220531192758.css.map */

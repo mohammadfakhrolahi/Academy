@@ -1,18 +1,17 @@
-@charset "UTF-8";
 /* Error: Expected identifier.
  *    ,
  * 11 |     size: 2rem;
  *    |                ^
  *    '
  *   .history\public\styles\header_20220528132608.scss 11:16  root stylesheet */
+
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Expected identifier.\a    ╷\a 11 │     size: 2rem;\d\a    │                ^\a    ╵\a   .history\\public\\styles\\header_20220528132608.scss 11:16  root stylesheet";
+  content: "Error: Expected identifier.\a    \2577 \a 11 \2502      size: 2rem;\d\a    \2502                 ^\a    \2575 \a   .history\\public\\styles\\header_20220528132608.scss 11:16  root stylesheet";
 }
-
-/*# sourceMappingURL=header_20220528132608.css.map */
