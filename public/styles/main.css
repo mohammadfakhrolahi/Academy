@@ -315,6 +315,8 @@ p, h1, h2, h3, a {
       grid-template-columns: 4.2rem 1fr 1rem;
   -ms-grid-rows: (auto)[2];
       grid-template-rows: repeat(2, auto);
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
   background: #ffffff;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -339,7 +341,9 @@ p, h1, h2, h3, a {
   place-items: center;
   background-color: #8a70d6;
   border-radius: 50%;
-  border: 0.1rem solid #e9e3ff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 1rem;
 }
 
 .card-item-m .progress-container .progress:before {
@@ -397,10 +401,16 @@ p, h1, h2, h3, a {
 .card-item-m .card-item-m-icon {
   grid-column: 3/-1;
   grid-row: 1/-1;
+  place-items: center;
 }
 
 .card-item-m:hover {
   background: #8a70d6;
+}
+
+.card-item-m:hover .progress {
+  -webkit-box-shadow: 0 0 0 0.15rem #e9e3ff;
+          box-shadow: 0 0 0 0.15rem #e9e3ff;
 }
 
 .card-item-m:hover p,

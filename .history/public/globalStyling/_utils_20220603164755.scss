@@ -198,7 +198,8 @@
     background: $purple;
 
     .progress {
-      box-shadow: 0 0 0 0.15rem $purple-light;
+      // border: 0.2rem solid $purple-light;
+      box-shadow: 0 0 0 0.2rem $purple-light;
     }
 
     p,

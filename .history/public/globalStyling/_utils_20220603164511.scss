@@ -137,7 +137,7 @@
       place-items: center;
       background-color: $purple;
       border-radius: 50%;
-      transition: 0.2s;
+      border: 0.2rem solid $purple-light;
       font-size: 1rem;
 
       &:before {
@@ -197,10 +197,7 @@
   &:hover {
     background: $purple;
 
-    .progress {
-      box-shadow: 0 0 0 0.15rem $purple-light;
-    }
-
+    
     p,
     i {
       color: $white;
