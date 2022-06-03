@@ -40,13 +40,8 @@ main {
   }
 
   &:hover {
-    background: $purple-light;
+    background: red;
     color: $text-color;
-  }
-
-  &:active {
-    background: $purple;
-    color: $white;
   }
 }
 

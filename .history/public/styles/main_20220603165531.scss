@@ -43,10 +43,10 @@ main {
     background: $purple-light;
     color: $text-color;
   }
-
-  &:active {
-    background: $purple;
-    color: $white;
+  
+  &:hover {
+    background: $purple-light;
+    color: $text-color;
   }
 }
 

@@ -43,11 +43,6 @@ main {
     background: $purple-light;
     color: $text-color;
   }
-
-  &:active {
-    background: $purple;
-    color: $white;
-  }
 }
 
 .nav-item-container-active {

@@ -577,6 +577,11 @@ main {
   color: #424040;
 }
 
+.nav-item-container:active {
+  background: #8a70d6;
+  color: #ffffff;
+}
+
 .nav-item-container-active {
   background: #8a70d6;
   color: #ffffff;
