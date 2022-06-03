@@ -201,6 +201,13 @@ p, h1, h2, h3, a {
   color: #aaadbc;
 }
 
+.modal-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 4rem;
+  max-width: 20.45rem;
+}
+
 .modal {
   position: relative;
   background: #e9e3ff;
@@ -668,13 +675,29 @@ main {
 
 .table {
   width: 100%;
+  max-height: 28.2rem;
   margin-top: 2rem;
+  overflow: auto;
   text-align: left;
+}
+
+.table tbody {
+  width: 100%;
+  max-height: 28.2rem;
+  overflow: auto;
 }
 
 .table tr {
   height: 4.5rem;
+  border-radius: 1rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   cursor: pointer;
+}
+
+.table tr:not(:first-child):hover {
+  -webkit-box-shadow: 0 0 2rem 0.5rem rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 2rem 0.5rem rgba(0, 0, 0, 0.04);
 }
 
 .table .table-item--first {
@@ -693,17 +716,17 @@ main {
   grid-row: 1/-1;
 }
 
-.table .table-item--first .icon-box--crop {
+.table .table-item--first .icon-box--blue {
   background: #e5f3fe;
   color: #579be4;
 }
 
-.table .table-item--first .icon-box--python, .table .table-item--first .icon-box--js {
+.table .table-item--first .icon-box--yello {
   background: #fff0e1;
   color: #fcab5e;
 }
 
-.table .table-item--first .icon-box--html {
+.table .table-item--first .icon-box--red {
   background: #ffe5e1;
   color: #ff6011;
 }
@@ -758,8 +781,8 @@ main {
   height: 501px;
   -webkit-perspective: 1000;
           perspective: 1000;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
@@ -836,7 +859,7 @@ main {
 }
 
 .last-month {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .weeks span {
@@ -968,7 +991,8 @@ main {
           transform: rotateY(180deg);
 }
 
-.front, .back {
+.front,
+.back {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
