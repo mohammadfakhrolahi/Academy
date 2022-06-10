@@ -1,18 +1,17 @@
-@charset "UTF-8";
 /* Error: expected "{".
  *    ,
  * 52 |   gtc
  *    |      ^
  *    '
  *   .history\public\styles\header_20220528142117.scss 52:6  root stylesheet */
+
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a    ╷\a 52 │   gtc\d\a    │      ^\a    ╵\a   .history\\public\\styles\\header_20220528142117.scss 52:6  root stylesheet';
+  content: 'Error: expected "{".\a    \2577 \a 52 \2502    gtc\d\a    \2502       ^\a    \2575 \a   .history\\public\\styles\\header_20220528142117.scss 52:6  root stylesheet';
 }
-
-/*# sourceMappingURL=header_20220528142117.css.map */

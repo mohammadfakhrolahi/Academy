@@ -1,17 +1,18 @@
+@charset "UTF-8";
 /* Error: Expected expression.
  *    ,
  * 59 |     color: ;
  *    |            ^
  *    '
  *   .history\public\styles\main_20220601155022.scss 59:12  root stylesheet */
-
 body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
   white-space: pre;
   display: block;
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a    \2577 \a 59 \2502      color: ;\d\a    \2502             ^\a    \2575 \a   .history\\public\\styles\\main_20220601155022.scss 59:12  root stylesheet";
+  content: "Error: Expected expression.\a    ╷\a 59 │     color: ;\d\a    │            ^\a    ╵\a   .history\\public\\styles\\main_20220601155022.scss 59:12  root stylesheet";
 }
+
+/*# sourceMappingURL=main_20220601155022.css.map */
