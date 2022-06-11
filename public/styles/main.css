@@ -692,18 +692,24 @@ main {
   opacity: 0.3;
 }
 
-.weeks span {
+.calendar-day {
+  width: 3.6rem;
+  height: 3.6rem;
   padding: 10px;
-}
-
-.weeks span.active {
-  background: #8a70d6;
   border-radius: 50%;
 }
-
-.weeks span:not(.last-month):hover {
+.calendar-day:not(.last-month):hover {
+  background: #e9e3ff;
+  color: #424040;
   cursor: pointer;
   font-weight: 600;
+}
+.calendar-day--active {
+  background: #8a70d6;
+  color: #ffffff;
+}
+.calendar-day--active:hover {
+  background: #8a70d6;
 }
 
 .event {

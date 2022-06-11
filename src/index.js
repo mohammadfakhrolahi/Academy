@@ -1,4 +1,5 @@
 const navItems = document.querySelectorAll('.nav-item-container')
+const calendarDay = document.querySelectorAll('.calendar-day')
 const progress = document.querySelectorAll('.progress')
 const progressValueContainer = document.querySelectorAll('.progress__value-container')
 
@@ -9,13 +10,6 @@ progressValueContainer.forEach((item) => {
     let progressValue = 0
     let progressEndValue = 70
     let speed = 10
-
-    
-    
-      // progressEndValue = item.value
-  
-    
-    // console.log(progressValueContainer.value)
   
     let progressInterval = setInterval(() => {
       progressValue++
@@ -33,10 +27,6 @@ progressValueContainer.forEach((item) => {
   })
 })
 
-
-
-// progressInterval()
-
 // Select nav items
 navItems.forEach((item) => {
   item.addEventListener('click', () => {
@@ -47,7 +37,18 @@ navItems.forEach((item) => {
   })
 })
 
-// Calendar
+
+// Select calendar days
+calendarDay.forEach((day) => {
+  day.addEventListener('click', () => {
+    calendarDay.forEach((disabledDay) => {
+      disabledDay.classList.remove('calendar-day--active')
+    })
+    day.classList.add('calendar-day--active')
+  })
+})
+
+// Calendar //! This code cpied
 var app = {
   settings: {
     container: $('.calendar'),
