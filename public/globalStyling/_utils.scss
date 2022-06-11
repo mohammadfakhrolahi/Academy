@@ -2,11 +2,13 @@
 .txt-form {
   width: 20rem;
   height: 4rem;
+  display: flex;
   background: $white;
   border-radius: 1rem;
   box-shadow: $box-shadow;
+  caret-color: $purple;
+  transition: 0.2s;
 
-  display: flex;
   .txt-input {
     width: 100%;
     background: inherit;
@@ -14,6 +16,10 @@
     &:placeholder {
       color: $gray-light;
     }
+  }
+
+  &:focus-within {
+    box-shadow: 0 0 0 0.15rem $purple;
   }
 }
 
